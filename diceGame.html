@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dice Game</title>
+	<link rel="stylesheet" type="text/css" href="diceGame.css">
+</head>
+<body>
+	<h1>Dice Game</h1>
+	<div class="container">
+	<div id="player1">
+		<div class="pm">
+		<h2>Player 1</h2>
+		<p>Score: <span id="player1-score">0</span></p>
+	   </div>
+        <div class="image">
+            <img src="1.png" id="player1-dice" />
+        </div>
+	</div>
+	<div id="player2">
+		<div class="pm">
+		<h2>Player 2</h2>
+		<p>Score: <span id="player2-score">0</span></p>
+	  </div>
+        <div class="image">
+            <img src="2.png" id="player2-dice" />
+        </div>
+	</div>
+</div>
+<div id="player-roll">
+	<button id="player-roll">Roll Dice</button>
+</div>
+<p id="message"></p>
+	<script src="diceGame.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+*{
+	font-family: Arial, sans-serif;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	text-align: center;
+}
+#player1, #player2 {
+	display:flex;
+    border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	width: 15%;
+	
+}
+#player1 h2, #player2 h2 {
+	margin-top: 0;
+}
+.image{
+	display: flex;
+	align-items: center;
+	justify-content:end ;
+}
+
+#message {
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+button {
+	padding: 10px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #3e8e41;
+}
+#player2-dice,#player1-dice{
+	height:100px;
+	width:100px;
+}
+.pm{
+	margin-right:25px;
+}
+#player-roll{
+	text-align: center;
+}
